@@ -21,5 +21,6 @@ math = false
 +++
 
 As a Software Engineer at iSenses Inc. I was responsible for developing a machine learning pipeline for Disguised Face Identification.
-After thorough research, a two-stage pipeline was formulated. In the first stage a learned Convolutional Neural Net classifier extracted 14 key feature points from facial images which were then classified into disguised or normal classes using a similarity measure between the 2D surfaces formed from the feature points of a disguised and a non-disguised facial image.
-My research and the resulting pipeline was then implemented on Xilinx FPGA ZYNQ-ZC702 board and materialized into a product.
+After thorough research, a two-stage pipeline was formulated. In the first stage a learned SegNet CNN classifier extracted 14 key feature points from an image. Using these key points facial region is localized. In the second stage, the facial region is classified into disguised or normal classes using an SVM classifier. My research and the resulting pipeline was then implemented on an FPGA board and materialized into a product.
+
+{{< vimeo 248132629 >}}

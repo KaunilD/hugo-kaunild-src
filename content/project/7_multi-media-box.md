@@ -1,15 +1,15 @@
 +++
 # Date this page was created.
-date = "2012-01-01"
+date = "2014-01-01"
 
 # Project title.
-title = "Affective Computing based L.M.S."
+title = "Wireless Multi-Media Streaming Device"
 
 # Project summary to display on homepage.
-summary = "An adaptive Learner Management System based on Affective Computing."
+summary = "A Raspberry Pi 2 based wireless streaming device."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "boards.jpg"
+image_preview = "multimedia_streaming_rpi.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
@@ -19,3 +19,5 @@ tags = ["deep-learning"]
 math = false
 
 +++
+
+A Raspberry Pi 2 based wireless streaming device.
